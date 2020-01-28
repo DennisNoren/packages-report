@@ -1,6 +1,9 @@
-#' ---
-#' output: github_document
-#' ---
+something.R
+================
+dennisnoren
+2020-01-27
+
+``` r
 # Separate, flatten, and trim values in the vector
 clean <- function(vec) {
        values <- strsplit(vec, ",")
@@ -14,3 +17,4 @@ clean <- function(vec) {
          unique_climate <- uniquify(planets$climate)
          unique_climate
        }
+```
